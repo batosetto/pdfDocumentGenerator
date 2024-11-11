@@ -55,7 +55,7 @@ const main = async () => {
 };
 
 // Inicializa o PDFNet com a chave de licença e executa a função principal
-PDFNet.runWithCleanup(main, 'demo:1731270625868:7eff6b5c0300000000525f9ff3c7af7a1ed9ab2929524e27b6e403bd88')
+PDFNet.runWithCleanup(main, 'YOUR-TRIAL-KEY')
     .catch(function (error) {
         console.log('Error during PDF creation:', error);
     })
